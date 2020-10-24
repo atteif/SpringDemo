@@ -1,0 +1,360 @@
+2020-10-24 02:17:59,330 INFO  [main] tn.esprit.springbootdatajpaentity.SpringBootDataJpaEntityApplication : Starting SpringBootDataJpaEntityApplication on geek-VirtualBox with PID 26199 (/home/geek/Desktop/workspaceSpring/spring-boot-data-jpa-entity/target/classes started by geek in /home/geek/Desktop/workspaceSpring/spring-boot-data-jpa-entity)
+2020-10-24 02:17:59,333 INFO  [main] tn.esprit.springbootdatajpaentity.SpringBootDataJpaEntityApplication : No active profile set, falling back to default profiles: default
+2020-10-24 02:18:00,171 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-10-24 02:18:00,215 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 36ms. Found 1 JPA repository interfaces.
+2020-10-24 02:18:00,939 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8082 (http)
+2020-10-24 02:18:00,948 INFO  [main] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2020-10-24 02:18:00,949 INFO  [main] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-24 02:18:01,055 INFO  [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2020-10-24 02:18:01,056 INFO  [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1647 ms
+2020-10-24 02:18:01,329 INFO  [main] org.hibernate.jpa.internal.util.LogHelper : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-10-24 02:18:01,375 INFO  [main] org.hibernate.Version : HHH000412: Hibernate ORM core version 5.4.21.Final
+2020-10-24 02:18:01,489 INFO  [main] org.hibernate.annotations.common.Version : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-10-24 02:18:01,607 INFO  [main] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Starting...
+2020-10-24 02:18:01,810 INFO  [main] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Start completed.
+2020-10-24 02:18:01,821 INFO  [main] org.hibernate.dialect.Dialect : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2020-10-24 02:18:02,342 INFO  [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-10-24 02:18:02,349 INFO  [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-10-24 02:18:02,577 WARN  [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-10-24 02:18:02,670 DEBUG [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping : 5 mappings in 'requestMappingHandlerMapping'
+2020-10-24 02:18:02,749 INFO  [main] springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-10-24 02:18:03,106 INFO  [main] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-24 02:18:03,132 DEBUG [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2020-10-24 02:18:03,189 DEBUG [main] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2020-10-24 02:18:03,204 DEBUG [main] org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2020-10-24 02:18:03,310 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 8082 (http) with context path ''
+2020-10-24 02:18:03,312 INFO  [main] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper : Context refreshed
+2020-10-24 02:18:03,331 INFO  [main] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-10-24 02:18:03,363 INFO  [main] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner : Scanning for api listing references
+2020-10-24 02:18:03,392 INFO  [main] tn.esprit.springbootdatajpaentity.SpringBootDataJpaEntityApplication : Started SpringBootDataJpaEntityApplication in 4.575 seconds (JVM running for 5.208)
+2020-10-24 02:18:07,566 INFO  [http-nio-8082-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-24 02:18:07,567 INFO  [http-nio-8082-exec-1] org.springframework.web.servlet.DispatcherServlet : Initializing Servlet 'dispatcherServlet'
+2020-10-24 02:18:07,567 DEBUG [http-nio-8082-exec-1] org.springframework.web.servlet.DispatcherServlet : Detected StandardServletMultipartResolver
+2020-10-24 02:18:07,579 DEBUG [http-nio-8082-exec-1] org.springframework.web.servlet.DispatcherServlet : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2020-10-24 02:18:07,580 INFO  [http-nio-8082-exec-1] org.springframework.web.servlet.DispatcherServlet : Completed initialization in 13 ms
+2020-10-24 02:18:07,586 DEBUG [http-nio-8082-exec-1] org.springframework.web.servlet.DispatcherServlet : GET "/swagger-ui.html", parameters={}
+2020-10-24 02:18:07,602 DEBUG [http-nio-8082-exec-1] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2020-10-24 02:18:07,611 DEBUG [http-nio-8082-exec-1] org.springframework.web.servlet.DispatcherServlet : Completed 304 NOT_MODIFIED
+2020-10-24 02:18:08,038 DEBUG [http-nio-8082-exec-2] org.springframework.web.servlet.DispatcherServlet : GET "/swagger-resources/configuration/ui", parameters={}
+2020-10-24 02:18:08,042 DEBUG [http-nio-8082-exec-3] org.springframework.web.servlet.DispatcherServlet : GET "/webjars/springfox-swagger-ui/favicon-32x32.png?v=2.9.2", parameters={masked}
+2020-10-24 02:18:08,042 DEBUG [http-nio-8082-exec-2] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping : Mapped to springfox.documentation.swagger.web.ApiResourceController#uiConfiguration()
+2020-10-24 02:18:08,044 DEBUG [http-nio-8082-exec-3] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/webjars/"]
+2020-10-24 02:18:08,083 DEBUG [http-nio-8082-exec-3] org.springframework.web.servlet.DispatcherServlet : Completed 200 OK
+2020-10-24 02:18:08,143 DEBUG [http-nio-8082-exec-2] org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor : Using 'application/json', given [application/json] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-10-24 02:18:08,144 DEBUG [http-nio-8082-exec-2] org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor : Writing [springfox.documentation.swagger.web.UiConfiguration@1d83720c]
+2020-10-24 02:18:08,156 DEBUG [http-nio-8082-exec-2] org.springframework.web.servlet.DispatcherServlet : Completed 200 OK
+2020-10-24 02:18:08,164 DEBUG [http-nio-8082-exec-4] org.springframework.web.servlet.DispatcherServlet : GET "/swagger-resources/configuration/security", parameters={}
+2020-10-24 02:18:08,165 DEBUG [http-nio-8082-exec-4] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping : Mapped to springfox.documentation.swagger.web.ApiResourceController#securityConfiguration()
+2020-10-24 02:18:08,175 DEBUG [http-nio-8082-exec-4] org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor : Using 'application/json', given [application/json] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-10-24 02:18:08,175 DEBUG [http-nio-8082-exec-4] org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor : Writing [springfox.documentation.swagger.web.SecurityConfiguration@78907417]
+2020-10-24 02:18:08,177 DEBUG [http-nio-8082-exec-4] org.springframework.web.servlet.DispatcherServlet : Completed 200 OK
+2020-10-24 02:18:08,184 DEBUG [http-nio-8082-exec-6] org.springframework.web.servlet.DispatcherServlet : GET "/swagger-resources", parameters={}
+2020-10-24 02:18:08,185 DEBUG [http-nio-8082-exec-6] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping : Mapped to springfox.documentation.swagger.web.ApiResourceController#swaggerResources()
+2020-10-24 02:18:08,190 DEBUG [http-nio-8082-exec-6] org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor : Using 'application/json', given [application/json] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-10-24 02:18:08,191 DEBUG [http-nio-8082-exec-6] org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor : Writing [[springfox.documentation.swagger.web.SwaggerResource@7370b66d]]
+2020-10-24 02:18:08,197 DEBUG [http-nio-8082-exec-6] org.springframework.web.servlet.DispatcherServlet : Completed 200 OK
+2020-10-24 02:18:08,255 DEBUG [http-nio-8082-exec-5] org.springframework.web.servlet.DispatcherServlet : GET "/v2/api-docs", parameters={}
+2020-10-24 02:18:08,255 DEBUG [http-nio-8082-exec-7] org.springframework.web.servlet.DispatcherServlet : GET "/", parameters={}
+2020-10-24 02:18:08,256 DEBUG [http-nio-8082-exec-7] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2020-10-24 02:18:08,257 DEBUG [http-nio-8082-exec-7] org.springframework.web.servlet.resource.ResourceHttpRequestHandler : Resource not found
+2020-10-24 02:18:08,258 DEBUG [http-nio-8082-exec-7] org.springframework.web.servlet.DispatcherServlet : Completed 404 NOT_FOUND
+2020-10-24 02:18:08,273 DEBUG [http-nio-8082-exec-7] org.springframework.web.servlet.DispatcherServlet : "ERROR" dispatch for GET "/error", parameters={}
+2020-10-24 02:18:08,278 DEBUG [http-nio-8082-exec-7] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2020-10-24 02:18:08,292 DEBUG [http-nio-8082-exec-7] org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-10-24 02:18:08,292 DEBUG [http-nio-8082-exec-7] org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor : Writing [{timestamp=Sat Oct 24 02:18:08 CET 2020, status=404, error=Not Found, message=, path=/}]
+2020-10-24 02:18:08,302 DEBUG [http-nio-8082-exec-7] org.springframework.web.servlet.DispatcherServlet : Exiting from "ERROR" dispatch, status 404
+2020-10-24 02:18:08,309 DEBUG [http-nio-8082-exec-8] org.springframework.web.servlet.DispatcherServlet : GET "/csrf", parameters={}
+2020-10-24 02:18:08,311 DEBUG [http-nio-8082-exec-8] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2020-10-24 02:18:08,322 DEBUG [http-nio-8082-exec-8] org.springframework.web.servlet.resource.ResourceHttpRequestHandler : Resource not found
+2020-10-24 02:18:08,326 DEBUG [http-nio-8082-exec-8] org.springframework.web.servlet.DispatcherServlet : Completed 404 NOT_FOUND
+2020-10-24 02:18:08,327 DEBUG [http-nio-8082-exec-8] org.springframework.web.servlet.DispatcherServlet : "ERROR" dispatch for GET "/error", parameters={}
+2020-10-24 02:18:08,328 DEBUG [http-nio-8082-exec-8] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2020-10-24 02:18:08,331 DEBUG [http-nio-8082-exec-8] org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-10-24 02:18:08,331 DEBUG [http-nio-8082-exec-8] org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor : Writing [{timestamp=Sat Oct 24 02:18:08 CET 2020, status=404, error=Not Found, message=, path=/csrf}]
+2020-10-24 02:18:08,333 DEBUG [http-nio-8082-exec-8] org.springframework.web.servlet.DispatcherServlet : Exiting from "ERROR" dispatch, status 404
+2020-10-24 02:18:08,382 DEBUG [http-nio-8082-exec-5] org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor : Using 'application/json', given [application/json, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-10-24 02:18:08,383 DEBUG [http-nio-8082-exec-5] org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor : Writing [springfox.documentation.spring.web.json.Json@53477a32]
+2020-10-24 02:18:08,386 DEBUG [http-nio-8082-exec-5] org.springframework.web.servlet.DispatcherServlet : Completed 200 OK
+2020-10-24 02:24:23,065 INFO  [SpringContextShutdownHook] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-10-24 02:24:23,069 INFO  [SpringContextShutdownHook] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-10-24 02:24:23,070 INFO  [SpringContextShutdownHook] org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2020-10-24 02:24:23,149 INFO  [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Shutdown initiated...
+2020-10-24 02:24:23,167 INFO  [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Shutdown completed.
+2020-10-24 02:24:30,919 INFO  [main] tn.esprit.springbootdatajpaentity.SpringBootDataJpaEntityApplication : Starting SpringBootDataJpaEntityApplication on geek-VirtualBox with PID 26453 (/home/geek/Desktop/workspaceSpring/spring-boot-data-jpa-entity/target/classes started by geek in /home/geek/Desktop/workspaceSpring/spring-boot-data-jpa-entity)
+2020-10-24 02:24:30,923 INFO  [main] tn.esprit.springbootdatajpaentity.SpringBootDataJpaEntityApplication : No active profile set, falling back to default profiles: default
+2020-10-24 02:24:31,783 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-10-24 02:24:31,832 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 42ms. Found 1 JPA repository interfaces.
+2020-10-24 02:24:32,600 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8082 (http)
+2020-10-24 02:24:32,609 INFO  [main] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2020-10-24 02:24:32,610 INFO  [main] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-24 02:24:32,730 INFO  [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2020-10-24 02:24:32,730 INFO  [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1725 ms
+2020-10-24 02:24:32,944 INFO  [main] org.hibernate.jpa.internal.util.LogHelper : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-10-24 02:24:32,976 INFO  [main] org.hibernate.Version : HHH000412: Hibernate ORM core version 5.4.21.Final
+2020-10-24 02:24:33,059 INFO  [main] org.hibernate.annotations.common.Version : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-10-24 02:24:33,165 INFO  [main] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Starting...
+2020-10-24 02:24:33,350 INFO  [main] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Start completed.
+2020-10-24 02:24:33,362 INFO  [main] org.hibernate.dialect.Dialect : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2020-10-24 02:24:33,894 INFO  [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-10-24 02:24:33,902 INFO  [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-10-24 02:24:34,220 WARN  [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-10-24 02:24:34,333 DEBUG [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping : 5 mappings in 'requestMappingHandlerMapping'
+2020-10-24 02:24:34,528 INFO  [main] springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-10-24 02:24:35,168 INFO  [main] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-24 02:24:35,192 DEBUG [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2020-10-24 02:24:35,274 DEBUG [main] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2020-10-24 02:24:35,292 DEBUG [main] org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2020-10-24 02:24:35,512 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 8082 (http) with context path ''
+2020-10-24 02:24:35,515 INFO  [main] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper : Context refreshed
+2020-10-24 02:24:35,532 INFO  [main] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-10-24 02:24:35,568 INFO  [main] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner : Scanning for api listing references
+2020-10-24 02:24:35,625 INFO  [main] tn.esprit.springbootdatajpaentity.SpringBootDataJpaEntityApplication : Started SpringBootDataJpaEntityApplication in 5.16 seconds (JVM running for 5.692)
+2020-10-24 02:24:42,504 INFO  [SpringContextShutdownHook] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-10-24 02:24:42,509 INFO  [SpringContextShutdownHook] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-10-24 02:24:42,510 INFO  [SpringContextShutdownHook] org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2020-10-24 02:24:42,521 INFO  [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Shutdown initiated...
+2020-10-24 02:24:42,554 INFO  [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Shutdown completed.
+2020-10-24 02:24:58,058 INFO  [main] tn.esprit.springbootdatajpaentity.SpringBootDataJpaEntityApplication : Starting SpringBootDataJpaEntityApplication on geek-VirtualBox with PID 26587 (/home/geek/Desktop/workspaceSpring/spring-boot-data-jpa-entity/target/classes started by geek in /home/geek/Desktop/workspaceSpring/spring-boot-data-jpa-entity)
+2020-10-24 02:24:58,061 INFO  [main] tn.esprit.springbootdatajpaentity.SpringBootDataJpaEntityApplication : No active profile set, falling back to default profiles: default
+2020-10-24 02:24:58,847 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-10-24 02:24:58,894 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 40ms. Found 1 JPA repository interfaces.
+2020-10-24 02:24:59,577 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8082 (http)
+2020-10-24 02:24:59,587 INFO  [main] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2020-10-24 02:24:59,587 INFO  [main] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-24 02:24:59,686 INFO  [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2020-10-24 02:24:59,687 INFO  [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1557 ms
+2020-10-24 02:24:59,914 INFO  [main] org.hibernate.jpa.internal.util.LogHelper : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-10-24 02:24:59,949 INFO  [main] org.hibernate.Version : HHH000412: Hibernate ORM core version 5.4.21.Final
+2020-10-24 02:25:00,064 INFO  [main] org.hibernate.annotations.common.Version : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-10-24 02:25:00,158 INFO  [main] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Starting...
+2020-10-24 02:25:00,301 INFO  [main] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Start completed.
+2020-10-24 02:25:00,310 INFO  [main] org.hibernate.dialect.Dialect : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2020-10-24 02:25:00,812 INFO  [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-10-24 02:25:00,818 INFO  [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-10-24 02:25:01,069 WARN  [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-10-24 02:25:01,156 DEBUG [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping : 5 mappings in 'requestMappingHandlerMapping'
+2020-10-24 02:25:01,230 INFO  [main] springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-10-24 02:25:01,542 INFO  [main] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-24 02:25:01,560 DEBUG [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2020-10-24 02:25:01,611 DEBUG [main] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2020-10-24 02:25:01,622 DEBUG [main] org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2020-10-24 02:25:01,718 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 8082 (http) with context path ''
+2020-10-24 02:25:01,720 INFO  [main] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper : Context refreshed
+2020-10-24 02:25:01,733 INFO  [main] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-10-24 02:25:01,763 INFO  [main] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner : Scanning for api listing references
+2020-10-24 02:25:01,792 INFO  [main] tn.esprit.springbootdatajpaentity.SpringBootDataJpaEntityApplication : Started SpringBootDataJpaEntityApplication in 4.213 seconds (JVM running for 4.762)
+2020-10-24 02:25:04,673 INFO  [http-nio-8082-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-24 02:25:04,674 INFO  [http-nio-8082-exec-1] org.springframework.web.servlet.DispatcherServlet : Initializing Servlet 'dispatcherServlet'
+2020-10-24 02:25:04,675 DEBUG [http-nio-8082-exec-1] org.springframework.web.servlet.DispatcherServlet : Detected StandardServletMultipartResolver
+2020-10-24 02:25:04,683 DEBUG [http-nio-8082-exec-1] org.springframework.web.servlet.DispatcherServlet : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2020-10-24 02:25:04,684 INFO  [http-nio-8082-exec-1] org.springframework.web.servlet.DispatcherServlet : Completed initialization in 9 ms
+2020-10-24 02:25:04,693 DEBUG [http-nio-8082-exec-1] org.springframework.web.servlet.DispatcherServlet : GET "/swagger-ui.html", parameters={}
+2020-10-24 02:25:04,709 DEBUG [http-nio-8082-exec-1] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2020-10-24 02:25:04,751 DEBUG [http-nio-8082-exec-1] org.springframework.web.servlet.DispatcherServlet : Completed 304 NOT_MODIFIED
+2020-10-24 02:25:04,940 DEBUG [http-nio-8082-exec-2] org.springframework.web.servlet.DispatcherServlet : GET "/swagger-resources/configuration/ui", parameters={}
+2020-10-24 02:25:04,943 DEBUG [http-nio-8082-exec-2] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping : Mapped to springfox.documentation.swagger.web.ApiResourceController#uiConfiguration()
+2020-10-24 02:25:04,959 DEBUG [http-nio-8082-exec-4] org.springframework.web.servlet.DispatcherServlet : GET "/webjars/springfox-swagger-ui/favicon-32x32.png?v=2.9.2", parameters={masked}
+2020-10-24 02:25:04,962 DEBUG [http-nio-8082-exec-4] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/webjars/"]
+2020-10-24 02:25:04,986 DEBUG [http-nio-8082-exec-4] org.springframework.web.servlet.DispatcherServlet : Completed 200 OK
+2020-10-24 02:25:05,060 DEBUG [http-nio-8082-exec-2] org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor : Using 'application/json', given [application/json] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-10-24 02:25:05,062 DEBUG [http-nio-8082-exec-2] org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor : Writing [springfox.documentation.swagger.web.UiConfiguration@6f101bad]
+2020-10-24 02:25:05,083 DEBUG [http-nio-8082-exec-2] org.springframework.web.servlet.DispatcherServlet : Completed 200 OK
+2020-10-24 02:25:05,089 DEBUG [http-nio-8082-exec-3] org.springframework.web.servlet.DispatcherServlet : GET "/swagger-resources/configuration/security", parameters={}
+2020-10-24 02:25:05,091 DEBUG [http-nio-8082-exec-3] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping : Mapped to springfox.documentation.swagger.web.ApiResourceController#securityConfiguration()
+2020-10-24 02:25:05,107 DEBUG [http-nio-8082-exec-3] org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor : Using 'application/json', given [application/json] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-10-24 02:25:05,108 DEBUG [http-nio-8082-exec-3] org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor : Writing [springfox.documentation.swagger.web.SecurityConfiguration@3b79b5c]
+2020-10-24 02:25:05,113 DEBUG [http-nio-8082-exec-3] org.springframework.web.servlet.DispatcherServlet : Completed 200 OK
+2020-10-24 02:25:05,122 DEBUG [http-nio-8082-exec-5] org.springframework.web.servlet.DispatcherServlet : GET "/swagger-resources", parameters={}
+2020-10-24 02:25:05,124 DEBUG [http-nio-8082-exec-5] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping : Mapped to springfox.documentation.swagger.web.ApiResourceController#swaggerResources()
+2020-10-24 02:25:05,128 DEBUG [http-nio-8082-exec-5] org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor : Using 'application/json', given [application/json] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-10-24 02:25:05,129 DEBUG [http-nio-8082-exec-5] org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor : Writing [[springfox.documentation.swagger.web.SwaggerResource@6d2833ca]]
+2020-10-24 02:25:05,138 DEBUG [http-nio-8082-exec-5] org.springframework.web.servlet.DispatcherServlet : Completed 200 OK
+2020-10-24 02:25:05,211 DEBUG [http-nio-8082-exec-8] org.springframework.web.servlet.DispatcherServlet : GET "/v2/api-docs", parameters={}
+2020-10-24 02:25:05,215 DEBUG [http-nio-8082-exec-6] org.springframework.web.servlet.DispatcherServlet : GET "/", parameters={}
+2020-10-24 02:25:05,216 DEBUG [http-nio-8082-exec-6] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2020-10-24 02:25:05,218 DEBUG [http-nio-8082-exec-6] org.springframework.web.servlet.resource.ResourceHttpRequestHandler : Resource not found
+2020-10-24 02:25:05,219 DEBUG [http-nio-8082-exec-6] org.springframework.web.servlet.DispatcherServlet : Completed 404 NOT_FOUND
+2020-10-24 02:25:05,230 DEBUG [http-nio-8082-exec-6] org.springframework.web.servlet.DispatcherServlet : "ERROR" dispatch for GET "/error", parameters={}
+2020-10-24 02:25:05,237 DEBUG [http-nio-8082-exec-6] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2020-10-24 02:25:05,246 DEBUG [http-nio-8082-exec-6] org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-10-24 02:25:05,247 DEBUG [http-nio-8082-exec-6] org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor : Writing [{timestamp=Sat Oct 24 02:25:05 CET 2020, status=404, error=Not Found, message=, path=/}]
+2020-10-24 02:25:05,256 DEBUG [http-nio-8082-exec-6] org.springframework.web.servlet.DispatcherServlet : Exiting from "ERROR" dispatch, status 404
+2020-10-24 02:25:05,262 DEBUG [http-nio-8082-exec-7] org.springframework.web.servlet.DispatcherServlet : GET "/csrf", parameters={}
+2020-10-24 02:25:05,268 DEBUG [http-nio-8082-exec-7] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2020-10-24 02:25:05,272 DEBUG [http-nio-8082-exec-7] org.springframework.web.servlet.resource.ResourceHttpRequestHandler : Resource not found
+2020-10-24 02:25:05,272 DEBUG [http-nio-8082-exec-7] org.springframework.web.servlet.DispatcherServlet : Completed 404 NOT_FOUND
+2020-10-24 02:25:05,273 DEBUG [http-nio-8082-exec-7] org.springframework.web.servlet.DispatcherServlet : "ERROR" dispatch for GET "/error", parameters={}
+2020-10-24 02:25:05,274 DEBUG [http-nio-8082-exec-7] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2020-10-24 02:25:05,276 DEBUG [http-nio-8082-exec-7] org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-10-24 02:25:05,278 DEBUG [http-nio-8082-exec-7] org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor : Writing [{timestamp=Sat Oct 24 02:25:05 CET 2020, status=404, error=Not Found, message=, path=/csrf}]
+2020-10-24 02:25:05,282 DEBUG [http-nio-8082-exec-7] org.springframework.web.servlet.DispatcherServlet : Exiting from "ERROR" dispatch, status 404
+2020-10-24 02:25:05,323 DEBUG [http-nio-8082-exec-8] org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor : Using 'application/json', given [application/json, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-10-24 02:25:05,324 DEBUG [http-nio-8082-exec-8] org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor : Writing [springfox.documentation.spring.web.json.Json@163f8d4d]
+2020-10-24 02:25:05,330 DEBUG [http-nio-8082-exec-8] org.springframework.web.servlet.DispatcherServlet : Completed 200 OK
+2020-10-24 02:27:38,617 INFO  [SpringContextShutdownHook] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-10-24 02:27:38,623 INFO  [SpringContextShutdownHook] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-10-24 02:27:38,624 INFO  [SpringContextShutdownHook] org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2020-10-24 02:27:38,634 INFO  [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Shutdown initiated...
+2020-10-24 02:27:38,656 INFO  [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Shutdown completed.
+2020-10-24 02:27:46,818 INFO  [main] tn.esprit.springbootdatajpaentity.SpringBootDataJpaEntityApplication : Starting SpringBootDataJpaEntityApplication on geek-VirtualBox with PID 26700 (/home/geek/Desktop/workspaceSpring/spring-boot-data-jpa-entity/target/classes started by geek in /home/geek/Desktop/workspaceSpring/spring-boot-data-jpa-entity)
+2020-10-24 02:27:46,823 INFO  [main] tn.esprit.springbootdatajpaentity.SpringBootDataJpaEntityApplication : No active profile set, falling back to default profiles: default
+2020-10-24 02:27:47,598 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-10-24 02:27:47,647 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 42ms. Found 1 JPA repository interfaces.
+2020-10-24 02:27:48,336 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8082 (http)
+2020-10-24 02:27:48,346 INFO  [main] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2020-10-24 02:27:48,347 INFO  [main] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-24 02:27:48,470 INFO  [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2020-10-24 02:27:48,470 INFO  [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1565 ms
+2020-10-24 02:27:48,696 INFO  [main] org.hibernate.jpa.internal.util.LogHelper : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-10-24 02:27:48,728 INFO  [main] org.hibernate.Version : HHH000412: Hibernate ORM core version 5.4.21.Final
+2020-10-24 02:27:48,820 INFO  [main] org.hibernate.annotations.common.Version : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-10-24 02:27:48,911 INFO  [main] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Starting...
+2020-10-24 02:27:49,091 INFO  [main] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Start completed.
+2020-10-24 02:27:49,100 INFO  [main] org.hibernate.dialect.Dialect : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2020-10-24 02:27:49,678 INFO  [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-10-24 02:27:49,685 INFO  [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-10-24 02:27:49,694 WARN  [main] org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userController': Unsatisfied dependency expressed through field 'userService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'tn.esprit.springbootdatajpaentity.service.UserService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2020-10-24 02:27:49,695 INFO  [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-10-24 02:27:49,695 INFO  [main] org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2020-10-24 02:27:49,704 INFO  [main] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Shutdown initiated...
+2020-10-24 02:27:49,742 INFO  [main] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Shutdown completed.
+2020-10-24 02:27:49,744 INFO  [main] org.apache.catalina.core.StandardService : Stopping service [Tomcat]
+2020-10-24 02:27:49,768 INFO  [main] org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-10-24 02:27:49,879 ERROR [main] org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field userService in tn.esprit.springbootdatajpaentity.controller.UserController required a bean of type 'tn.esprit.springbootdatajpaentity.service.UserService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'tn.esprit.springbootdatajpaentity.service.UserService' in your configuration.
+
+2020-10-24 02:32:46,122 INFO  [main] tn.esprit.springbootdatajpaentity.SpringBootDataJpaEntityApplication : Starting SpringBootDataJpaEntityApplication on geek-VirtualBox with PID 26930 (/home/geek/Desktop/workspaceSpring/spring-boot-data-jpa-entity/target/classes started by geek in /home/geek/Desktop/workspaceSpring/spring-boot-data-jpa-entity)
+2020-10-24 02:32:46,125 INFO  [main] tn.esprit.springbootdatajpaentity.SpringBootDataJpaEntityApplication : No active profile set, falling back to default profiles: default
+2020-10-24 02:32:46,879 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-10-24 02:32:46,925 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 37ms. Found 1 JPA repository interfaces.
+2020-10-24 02:32:47,611 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8082 (http)
+2020-10-24 02:32:47,621 INFO  [main] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2020-10-24 02:32:47,622 INFO  [main] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-24 02:32:47,723 INFO  [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2020-10-24 02:32:47,724 INFO  [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1517 ms
+2020-10-24 02:32:47,914 INFO  [main] org.hibernate.jpa.internal.util.LogHelper : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-10-24 02:32:47,946 INFO  [main] org.hibernate.Version : HHH000412: Hibernate ORM core version 5.4.21.Final
+2020-10-24 02:32:48,027 INFO  [main] org.hibernate.annotations.common.Version : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-10-24 02:32:48,132 INFO  [main] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Starting...
+2020-10-24 02:32:48,283 INFO  [main] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Start completed.
+2020-10-24 02:32:48,293 INFO  [main] org.hibernate.dialect.Dialect : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2020-10-24 02:32:48,747 INFO  [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-10-24 02:32:48,752 INFO  [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-10-24 02:32:49,215 WARN  [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-10-24 02:32:49,291 DEBUG [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping : 6 mappings in 'requestMappingHandlerMapping'
+2020-10-24 02:32:49,358 INFO  [main] springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-10-24 02:32:49,489 INFO  [main] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-24 02:32:49,505 DEBUG [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2020-10-24 02:32:49,551 DEBUG [main] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2020-10-24 02:32:49,562 DEBUG [main] org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2020-10-24 02:32:49,668 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 8082 (http) with context path ''
+2020-10-24 02:32:49,670 INFO  [main] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper : Context refreshed
+2020-10-24 02:32:49,685 INFO  [main] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-10-24 02:32:49,713 INFO  [main] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner : Scanning for api listing references
+2020-10-24 02:32:49,831 INFO  [main] tn.esprit.springbootdatajpaentity.SpringBootDataJpaEntityApplication : Started SpringBootDataJpaEntityApplication in 4.176 seconds (JVM running for 4.676)
+2020-10-24 02:32:55,218 INFO  [http-nio-8082-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-24 02:32:55,220 INFO  [http-nio-8082-exec-1] org.springframework.web.servlet.DispatcherServlet : Initializing Servlet 'dispatcherServlet'
+2020-10-24 02:32:55,220 DEBUG [http-nio-8082-exec-1] org.springframework.web.servlet.DispatcherServlet : Detected StandardServletMultipartResolver
+2020-10-24 02:32:55,229 DEBUG [http-nio-8082-exec-1] org.springframework.web.servlet.DispatcherServlet : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2020-10-24 02:32:55,230 INFO  [http-nio-8082-exec-1] org.springframework.web.servlet.DispatcherServlet : Completed initialization in 9 ms
+2020-10-24 02:32:55,238 DEBUG [http-nio-8082-exec-1] org.springframework.web.servlet.DispatcherServlet : GET "/swagger-ui.html", parameters={}
+2020-10-24 02:32:55,245 DEBUG [http-nio-8082-exec-1] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2020-10-24 02:32:55,257 DEBUG [http-nio-8082-exec-1] org.springframework.web.servlet.DispatcherServlet : Completed 304 NOT_MODIFIED
+2020-10-24 02:32:55,430 DEBUG [http-nio-8082-exec-2] org.springframework.web.servlet.DispatcherServlet : GET "/swagger-resources/configuration/ui", parameters={}
+2020-10-24 02:32:55,432 DEBUG [http-nio-8082-exec-2] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping : Mapped to springfox.documentation.swagger.web.ApiResourceController#uiConfiguration()
+2020-10-24 02:32:55,478 DEBUG [http-nio-8082-exec-4] org.springframework.web.servlet.DispatcherServlet : GET "/webjars/springfox-swagger-ui/favicon-32x32.png?v=2.9.2", parameters={masked}
+2020-10-24 02:32:55,480 DEBUG [http-nio-8082-exec-4] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/webjars/"]
+2020-10-24 02:32:55,497 DEBUG [http-nio-8082-exec-4] org.springframework.web.servlet.DispatcherServlet : Completed 200 OK
+2020-10-24 02:32:55,513 DEBUG [http-nio-8082-exec-2] org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor : Using 'application/json', given [application/json] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-10-24 02:32:55,514 DEBUG [http-nio-8082-exec-2] org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor : Writing [springfox.documentation.swagger.web.UiConfiguration@2ceebda6]
+2020-10-24 02:32:55,528 DEBUG [http-nio-8082-exec-2] org.springframework.web.servlet.DispatcherServlet : Completed 200 OK
+2020-10-24 02:32:55,540 DEBUG [http-nio-8082-exec-3] org.springframework.web.servlet.DispatcherServlet : GET "/swagger-resources/configuration/security", parameters={}
+2020-10-24 02:32:55,541 DEBUG [http-nio-8082-exec-3] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping : Mapped to springfox.documentation.swagger.web.ApiResourceController#securityConfiguration()
+2020-10-24 02:32:55,552 DEBUG [http-nio-8082-exec-3] org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor : Using 'application/json', given [application/json] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-10-24 02:32:55,553 DEBUG [http-nio-8082-exec-3] org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor : Writing [springfox.documentation.swagger.web.SecurityConfiguration@4f0470f1]
+2020-10-24 02:32:55,555 DEBUG [http-nio-8082-exec-3] org.springframework.web.servlet.DispatcherServlet : Completed 200 OK
+2020-10-24 02:32:55,562 DEBUG [http-nio-8082-exec-5] org.springframework.web.servlet.DispatcherServlet : GET "/swagger-resources", parameters={}
+2020-10-24 02:32:55,563 DEBUG [http-nio-8082-exec-5] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping : Mapped to springfox.documentation.swagger.web.ApiResourceController#swaggerResources()
+2020-10-24 02:32:55,566 DEBUG [http-nio-8082-exec-5] org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor : Using 'application/json', given [application/json] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-10-24 02:32:55,566 DEBUG [http-nio-8082-exec-5] org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor : Writing [[springfox.documentation.swagger.web.SwaggerResource@bafe5d4]]
+2020-10-24 02:32:55,572 DEBUG [http-nio-8082-exec-5] org.springframework.web.servlet.DispatcherServlet : Completed 200 OK
+2020-10-24 02:32:55,619 DEBUG [http-nio-8082-exec-6] org.springframework.web.servlet.DispatcherServlet : GET "/v2/api-docs", parameters={}
+2020-10-24 02:32:55,619 DEBUG [http-nio-8082-exec-7] org.springframework.web.servlet.DispatcherServlet : GET "/", parameters={}
+2020-10-24 02:32:55,620 DEBUG [http-nio-8082-exec-7] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2020-10-24 02:32:55,621 DEBUG [http-nio-8082-exec-7] org.springframework.web.servlet.resource.ResourceHttpRequestHandler : Resource not found
+2020-10-24 02:32:55,624 DEBUG [http-nio-8082-exec-7] org.springframework.web.servlet.DispatcherServlet : Completed 404 NOT_FOUND
+2020-10-24 02:32:55,640 DEBUG [http-nio-8082-exec-7] org.springframework.web.servlet.DispatcherServlet : "ERROR" dispatch for GET "/error", parameters={}
+2020-10-24 02:32:55,642 DEBUG [http-nio-8082-exec-7] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2020-10-24 02:32:55,650 DEBUG [http-nio-8082-exec-7] org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-10-24 02:32:55,651 DEBUG [http-nio-8082-exec-7] org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor : Writing [{timestamp=Sat Oct 24 02:32:55 CET 2020, status=404, error=Not Found, message=, path=/}]
+2020-10-24 02:32:55,658 DEBUG [http-nio-8082-exec-7] org.springframework.web.servlet.DispatcherServlet : Exiting from "ERROR" dispatch, status 404
+2020-10-24 02:32:55,665 DEBUG [http-nio-8082-exec-8] org.springframework.web.servlet.DispatcherServlet : GET "/csrf", parameters={}
+2020-10-24 02:32:55,668 DEBUG [http-nio-8082-exec-8] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2020-10-24 02:32:55,678 DEBUG [http-nio-8082-exec-8] org.springframework.web.servlet.resource.ResourceHttpRequestHandler : Resource not found
+2020-10-24 02:32:55,680 DEBUG [http-nio-8082-exec-8] org.springframework.web.servlet.DispatcherServlet : Completed 404 NOT_FOUND
+2020-10-24 02:32:55,681 DEBUG [http-nio-8082-exec-8] org.springframework.web.servlet.DispatcherServlet : "ERROR" dispatch for GET "/error", parameters={}
+2020-10-24 02:32:55,683 DEBUG [http-nio-8082-exec-8] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2020-10-24 02:32:55,687 DEBUG [http-nio-8082-exec-8] org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-10-24 02:32:55,690 DEBUG [http-nio-8082-exec-8] org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor : Writing [{timestamp=Sat Oct 24 02:32:55 CET 2020, status=404, error=Not Found, message=, path=/csrf}]
+2020-10-24 02:32:55,692 DEBUG [http-nio-8082-exec-8] org.springframework.web.servlet.DispatcherServlet : Exiting from "ERROR" dispatch, status 404
+2020-10-24 02:32:55,766 DEBUG [http-nio-8082-exec-6] org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor : Using 'application/json', given [application/json, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-10-24 02:32:55,769 DEBUG [http-nio-8082-exec-6] org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor : Writing [springfox.documentation.spring.web.json.Json@701aa75c]
+2020-10-24 02:32:55,773 DEBUG [http-nio-8082-exec-6] org.springframework.web.servlet.DispatcherServlet : Completed 200 OK
+2020-10-24 02:32:57,861 DEBUG [http-nio-8082-exec-9] org.springframework.web.servlet.DispatcherServlet : GET "/webjars/springfox-swagger-ui/fonts/source-code-pro-v7-latin-600.woff2", parameters={}
+2020-10-24 02:32:57,862 DEBUG [http-nio-8082-exec-9] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/webjars/"]
+2020-10-24 02:32:57,865 DEBUG [http-nio-8082-exec-9] org.springframework.web.servlet.DispatcherServlet : Completed 200 OK
+2020-10-24 02:32:59,316 DEBUG [http-nio-8082-exec-10] org.springframework.web.servlet.DispatcherServlet : GET "/webjars/springfox-swagger-ui/fonts/titillium-web-v6-latin-600.woff2", parameters={}
+2020-10-24 02:32:59,318 DEBUG [http-nio-8082-exec-10] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/webjars/"]
+2020-10-24 02:32:59,321 DEBUG [http-nio-8082-exec-10] org.springframework.web.servlet.DispatcherServlet : Completed 200 OK
+2020-10-24 02:33:04,174 DEBUG [http-nio-8082-exec-2] org.springframework.web.servlet.DispatcherServlet : GET "/webjars/springfox-swagger-ui/fonts/titillium-web-v6-latin-regular.woff2", parameters={}
+2020-10-24 02:33:04,175 DEBUG [http-nio-8082-exec-2] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/webjars/"]
+2020-10-24 02:33:04,182 DEBUG [http-nio-8082-exec-2] org.springframework.web.servlet.DispatcherServlet : Completed 200 OK
+2020-10-24 02:46:01,819 DEBUG [http-nio-8082-exec-5] org.springframework.web.servlet.DispatcherServlet : GET "/swagger-resources/configuration/security", parameters={}
+2020-10-24 02:46:01,838 DEBUG [http-nio-8082-exec-5] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping : Mapped to springfox.documentation.swagger.web.ApiResourceController#securityConfiguration()
+2020-10-24 02:46:01,840 DEBUG [http-nio-8082-exec-5] org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor : Using 'application/json', given [application/json] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-10-24 02:46:01,841 DEBUG [http-nio-8082-exec-5] org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor : Writing [springfox.documentation.swagger.web.SecurityConfiguration@560c6e53]
+2020-10-24 02:46:01,843 DEBUG [http-nio-8082-exec-5] org.springframework.web.servlet.DispatcherServlet : Completed 200 OK
+2020-10-24 02:46:01,878 DEBUG [http-nio-8082-exec-7] org.springframework.web.servlet.DispatcherServlet : GET "/swagger-resources", parameters={}
+2020-10-24 02:46:01,879 DEBUG [http-nio-8082-exec-7] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping : Mapped to springfox.documentation.swagger.web.ApiResourceController#swaggerResources()
+2020-10-24 02:46:01,882 DEBUG [http-nio-8082-exec-7] org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor : Using 'application/json', given [application/json] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-10-24 02:46:01,882 DEBUG [http-nio-8082-exec-7] org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor : Writing [[springfox.documentation.swagger.web.SwaggerResource@232133f]]
+2020-10-24 02:46:01,884 DEBUG [http-nio-8082-exec-7] org.springframework.web.servlet.DispatcherServlet : Completed 200 OK
+2020-10-24 02:46:01,933 DEBUG [http-nio-8082-exec-8] org.springframework.web.servlet.DispatcherServlet : GET "/v2/api-docs", parameters={}
+2020-10-24 02:46:01,937 DEBUG [http-nio-8082-exec-8] org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor : Using 'application/json', given [application/json, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-10-24 02:46:01,938 DEBUG [http-nio-8082-exec-8] org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor : Writing [springfox.documentation.spring.web.json.Json@6d67af7d]
+2020-10-24 02:46:01,941 DEBUG [http-nio-8082-exec-8] org.springframework.web.servlet.DispatcherServlet : Completed 200 OK
+2020-10-24 02:46:01,951 DEBUG [http-nio-8082-exec-6] org.springframework.web.servlet.DispatcherServlet : GET "/", parameters={}
+2020-10-24 02:46:01,952 DEBUG [http-nio-8082-exec-6] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2020-10-24 02:46:01,952 DEBUG [http-nio-8082-exec-6] org.springframework.web.servlet.resource.ResourceHttpRequestHandler : Resource not found
+2020-10-24 02:46:01,953 DEBUG [http-nio-8082-exec-6] org.springframework.web.servlet.DispatcherServlet : Completed 404 NOT_FOUND
+2020-10-24 02:46:01,954 DEBUG [http-nio-8082-exec-6] org.springframework.web.servlet.DispatcherServlet : "ERROR" dispatch for GET "/error", parameters={}
+2020-10-24 02:46:01,954 DEBUG [http-nio-8082-exec-6] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2020-10-24 02:46:01,955 DEBUG [http-nio-8082-exec-6] org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-10-24 02:46:01,955 DEBUG [http-nio-8082-exec-6] org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor : Writing [{timestamp=Sat Oct 24 02:46:01 CET 2020, status=404, error=Not Found, message=, path=/}]
+2020-10-24 02:46:01,968 DEBUG [http-nio-8082-exec-6] org.springframework.web.servlet.DispatcherServlet : Exiting from "ERROR" dispatch, status 404
+2020-10-24 02:46:02,078 DEBUG [http-nio-8082-exec-9] org.springframework.web.servlet.DispatcherServlet : GET "/csrf", parameters={}
+2020-10-24 02:46:02,079 DEBUG [http-nio-8082-exec-9] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2020-10-24 02:46:02,080 DEBUG [http-nio-8082-exec-9] org.springframework.web.servlet.resource.ResourceHttpRequestHandler : Resource not found
+2020-10-24 02:46:02,080 DEBUG [http-nio-8082-exec-9] org.springframework.web.servlet.DispatcherServlet : Completed 404 NOT_FOUND
+2020-10-24 02:46:02,081 DEBUG [http-nio-8082-exec-9] org.springframework.web.servlet.DispatcherServlet : "ERROR" dispatch for GET "/error", parameters={}
+2020-10-24 02:46:02,082 DEBUG [http-nio-8082-exec-9] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2020-10-24 02:46:02,082 DEBUG [http-nio-8082-exec-9] org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-10-24 02:46:02,083 DEBUG [http-nio-8082-exec-9] org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor : Writing [{timestamp=Sat Oct 24 02:46:02 CET 2020, status=404, error=Not Found, message=, path=/csrf}]
+2020-10-24 02:46:02,084 DEBUG [http-nio-8082-exec-9] org.springframework.web.servlet.DispatcherServlet : Exiting from "ERROR" dispatch, status 404
